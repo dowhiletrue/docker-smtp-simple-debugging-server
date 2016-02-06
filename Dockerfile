@@ -6,7 +6,7 @@ RUN apt-get upgrade -y
 
 RUN apt-get install -y -q python
 
-EXPOSE 25
+EXPOSE 10025
 
 ADD smtpd-run.py /smtpd-run.py
 
