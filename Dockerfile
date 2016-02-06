@@ -1,4 +1,4 @@
-FROM tutum/debian-wheezy
+FROM debian
 MAINTAINER Mark Redar mredar@gmail.com
 
 RUN apt-get update
